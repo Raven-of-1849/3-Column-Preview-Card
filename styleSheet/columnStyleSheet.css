@@ -5,6 +5,7 @@ body {
   width: 100%;
   font-family: 'Lexend Deca', sans-serif;
   font-size: .9375rem;
+  border-radius: 2px;
 }
 
 
@@ -13,6 +14,8 @@ h1, h2, h3, h4 {
   font-family: 'Big Shoulders Display', cursive;
   font-size: 2.7rem;
   text-transform: uppercase;
+  margin-top: 28px;
+  margin-bottom: 28px;
 }
 
 p {
@@ -27,43 +30,58 @@ p {
 
 .carIcons {
 
-    margin-top: 18%;
+    margin-top: 21%;
 }
 
 .sedan {
   background-color:hsl(31, 77%, 52%);
-  height: 33.33%;
+  min-height: 33.33%;
+  max-height: fit-content;
   margin: 0 auto;
 }
 
+.sedan button {
+  color: hsl(31, 77%, 52%);
+}
+
 .sedanContent {
-  width: 63%;
+  width: 70%;
   margin: 0 auto;
 }
 
 .suv {
   background-color:  hsl(184, 100%, 22%);
-  height: 33.33%;
+  min-height: 33.33%;
+  max-height: fit-content;
+}
+
+.suv button {
+  color: hsl(184, 100%, 22%);
 }
 
 .suvContent {
-  width: 63%;
+  width: 70%;
   margin: 0 auto;
 }
 
 .luxury {
   background-color:  hsl(179, 100%, 13%);
-  height: 33.33%;
+  min-height: 33.33%;
+  max-height: fit-content;
 }
 
+.luxury button {
+  color: hsl(179, 100%, 13%);
+}
 
 .luxuryContent {
-  width: 63%;
+  width: 70%;
   margin: 0 auto;
 }
 
 .learnButton {
   border-radius: 50px;
   height: 3.5vh;
+  margin-top: .562rem;
   width: 40vw;
 }
