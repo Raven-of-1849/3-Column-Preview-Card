@@ -12,25 +12,32 @@ body {
 h1, h2, h3, h4 {
   color: hsl(0, 0%, 95%);
   font-family: 'Big Shoulders Display', cursive;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
-  margin-top: 28px;
-  margin-bottom: 28px;
+  margin-top: 11%;
+  margin-bottom: 12%;
 }
 
 p {
    color: hsla(0, 0%, 100%, 0.75);
    line-height: 2;
+   padding-right: 1.12rem;
+   text-align: left;
 }
 
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution {
+  display: none;
+  font-size: 11px; text-align: center;
+}
 
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a {
+   color: hsl(228, 45%, 44%);
+ }
 
 .carIcons {
-
-    margin-top: 21%;
+  height: 10vw;
+  margin-top: 3rem;
 }
 
 .sedan {
@@ -45,7 +52,7 @@ p {
 }
 
 .sedanContent {
-  width: 70%;
+  width: 68%;
   margin: 0 auto;
 }
 
@@ -60,7 +67,7 @@ p {
 }
 
 .suvContent {
-  width: 70%;
+  width: 68%;
   margin: 0 auto;
 }
 
@@ -75,13 +82,15 @@ p {
 }
 
 .luxuryContent {
-  width: 70%;
+  width: 68%;
   margin: 0 auto;
 }
 
 .learnButton {
+  border: none;
   border-radius: 50px;
-  height: 3.5vh;
+  height: 12.5vw;
   margin-top: .562rem;
+  margin-bottom: 3rem;
   width: 40vw;
 }
