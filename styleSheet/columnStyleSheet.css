@@ -93,4 +93,11 @@ p {
   margin-top: .562rem;
   margin-bottom: 3rem;
   width: 40vw;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.learnButton:hover {
+  background-color:#11ffee00 ;
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
 }
