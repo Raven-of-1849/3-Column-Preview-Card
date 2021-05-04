@@ -12,7 +12,7 @@ body {
 h1, h2, h3, h4 {
   color: hsl(0, 0%, 95%);
   font-family: 'Big Shoulders Display', cursive;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   text-transform: uppercase;
   margin-top: 11%;
   margin-bottom: 12%;
@@ -21,7 +21,7 @@ h1, h2, h3, h4 {
 p {
    color: hsla(0, 0%, 100%, 0.75);
    line-height: 2;
-   padding-right: 1.12rem;
+   padding-right: 3.13rem;
    text-align: left;
 }
 
@@ -52,7 +52,7 @@ p {
 }
 
 .sedanContent {
-  width: 68%;
+  width: 73%;
   margin: 0 auto;
 }
 
@@ -67,7 +67,7 @@ p {
 }
 
 .suvContent {
-  width: 68%;
+  width: 73%;
   margin: 0 auto;
 }
 
@@ -82,7 +82,7 @@ p {
 }
 
 .luxuryContent {
-  width: 68%;
+  width: 73%;
   margin: 0 auto;
 }
 
