@@ -12,14 +12,16 @@ body {
 h1, h2, h3, h4 {
   color: hsl(0, 0%, 95%);
   font-family: 'Big Shoulders Display', cursive;
-  font-size: 2.3rem;
+  /*font-size: 2.3rem;*/
+  font-size: 9.8vw;
   text-transform: uppercase;
   margin-top: 11%;
   margin-bottom: 12%;
 }
 
-p {
+.carInfo {
    color: hsla(0, 0%, 100%, 0.75);
+   font-size: 4vw;
    line-height: 2;
    padding-right: 3.13rem;
    text-align: left;
@@ -27,12 +29,20 @@ p {
 
 
 .attribution {
-  display: none;
-  font-size: 11px; text-align: center;
+  background-color: darkslategray;
+  color: #FFF;
+  font-size: 11px;
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .attribution a {
    color: hsl(228, 45%, 44%);
+   text-decoration: none;
+ }
+
+ .attribution a:hover {
+   color: hsl(179, 100%, 13%);
  }
 
 .carIcons {
@@ -89,7 +99,10 @@ p {
 .learnButton {
   border: none;
   border-radius: 50px;
-  height: 12.5vw;
+  font-size: 4vw;
+  /*height: 12.5vw;*/
+  height: fit-content;
+  padding: 4%;
   margin-top: .562rem;
   margin-bottom: 3rem;
   width: 40vw;
@@ -100,4 +113,112 @@ p {
   background-color:#11ffee00 ;
   border: 2px solid hsl(0, 0%, 95%);
   color: hsl(0, 0%, 95%);
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    width: 100vw;
+  }
+
+  .sedan {
+    position:absolute;
+    bottom: 0;
+    min-height: 100vh;
+    max-height: 100%;
+    overflow: hidden;
+    width: 33.33%;
+  }
+
+  .sedanContent {
+    letter-spacing: .03rem;
+    width: 70%;
+  }
+
+  .suv {
+    position: absolute;
+    bottom: 0;
+    min-height: 100vh;
+    max-height: 100%;
+    margin-left: 33.33%;
+    overflow: hidden;
+    width: 33.33%;
+  }
+
+  .suvContent {
+    letter-spacing: .03rem;
+    width: 70%;
+  }
+
+  .luxury {
+    position: absolute;
+    bottom: 0;
+    min-height: 100vh;
+    max-height: 100%;
+    margin-left: 66.66%;
+    overflow: hidden;
+    width: 33.33%;
+  }
+
+  .luxuryContent {
+    letter-spacing: .03rem;
+    width: 70%;
+  }
+
+  .carIcons {
+    height: 4rem;
+    margin-top: 4rem;
+  }
+
+  h1, h2, h3, h4 {
+    font-size: 3.88rem;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .carInfo {
+    /*font-size: 1.44rem;*/
+    font-size: 1.6vw;
+    text-align: left;
+    padding-right: 0rem;
+  }
+
+  .learnButton {
+    /*font-size: 1.44rem;*/
+    font-size: 1.5vw;
+    font-weight: 600;
+    height: fit-content;
+    padding: 6%;
+    margin-bottom: 4rem;
+    /*margin-top : 13.2vh;*/
+    margin-top: calc(1vw + 15%);
+    width: 16vw;
+  }
+
+  .learnButton:hover {
+    background-color:#11ffee00 ;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+  }
+
+  .attribution {
+    position: absolute;
+    left: calc(34% + -2.8vw);
+    bottom: 84%;
+    width: 100%;
+    background-color: #FFF;
+    color: #000;
+    font-size: calc(.2rem + 0.6vw);
+    transform:rotate(45deg);
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+
+  .att {
+    margin: 0 auto;
+  }
+
+  .attribution a {
+     color: hsl(228, 45%, 44%);
+     text-decoration: none;
+   }
 }
